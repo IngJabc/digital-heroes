@@ -1,13 +1,22 @@
-import { Container } from '@/components/ui/Container'
-import { Section } from '@/components/ui/Section'
+import type { Metadata } from 'next'
+import { Hero } from '@/components/marketing/Hero'
+import { FeatureGrid } from '@/components/marketing/FeatureGrid'
+import { FAQ } from '@/components/marketing/FAQ'
+import { CTASection } from '@/components/marketing/CTASection'
+
+export const metadata: Metadata = {
+  title: 'Digitel — Operational clarity for growing teams',
+  description:
+    'Digitel helps teams automate workflows, improve collaboration, and gain real-time visibility into operations. Start your free trial today.',
+}
 
 export default function HomePage() {
   return (
-    <Section>
-      <Container>
-        <h1 className="text-4xl font-bold text-neutral-900">Home</h1>
-        <p className="mt-4 text-lg text-neutral-600">Welcome to Digitel.</p>
-      </Container>
-    </Section>
+    <>
+      <Hero />
+      <FeatureGrid />
+      <FAQ />
+      <CTASection />
+    </>
   )
 }
