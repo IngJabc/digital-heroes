@@ -1,13 +1,24 @@
-import { Container } from '@/components/ui/Container'
-import { Section } from '@/components/ui/Section'
+import type { Metadata } from 'next'
+import { ProductHero } from '@/components/product/ProductHero'
+import { HowItWorks } from '@/components/product/HowItWorks'
+import { CapabilitiesGrid } from '@/components/product/CapabilitiesGrid'
+import { UseCases } from '@/components/product/UseCases'
+import { CTASection } from '@/components/marketing/CTASection'
+
+export const metadata: Metadata = {
+  title: 'Digitel Product — Automate workflows and improve operations',
+  description:
+    'Discover how Digitel helps teams automate workflows, collaborate better, and gain operational visibility.',
+}
 
 export default function ProductPage() {
   return (
-    <Section>
-      <Container>
-        <h1 className="text-4xl font-bold text-neutral-900">Product</h1>
-        <p className="mt-4 text-lg text-neutral-600">Our product offerings.</p>
-      </Container>
-    </Section>
+    <>
+      <ProductHero />
+      <HowItWorks />
+      <CapabilitiesGrid />
+      <UseCases />
+      <CTASection />
+    </>
   )
 }
