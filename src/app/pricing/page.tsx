@@ -1,13 +1,22 @@
-import { Container } from '@/components/ui/Container'
-import { Section } from '@/components/ui/Section'
+import type { Metadata } from 'next'
+import { PricingHero } from '@/components/pricing/PricingHero'
+import { PricingGrid } from '@/components/pricing/PricingGrid'
+import { FeatureComparison } from '@/components/pricing/FeatureComparison'
+import { CTASection } from '@/components/marketing/CTASection'
+
+export const metadata: Metadata = {
+  title: 'Digitel Pricing — Simple plans for every team',
+  description:
+    'Compare Digitel pricing plans. Start free with a 14-day trial, scale as your team grows. No hidden fees.',
+}
 
 export default function PricingPage() {
   return (
-    <Section>
-      <Container>
-        <h1 className="text-4xl font-bold text-neutral-900">Pricing</h1>
-        <p className="mt-4 text-lg text-neutral-600">Simple, transparent pricing.</p>
-      </Container>
-    </Section>
+    <>
+      <PricingHero />
+      <PricingGrid />
+      <FeatureComparison />
+      <CTASection />
+    </>
   )
 }
