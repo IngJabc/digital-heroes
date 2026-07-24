@@ -1,13 +1,20 @@
-import { Container } from '@/components/ui/Container'
-import { Section } from '@/components/ui/Section'
+import type { Metadata } from 'next'
+import { ContactHero } from '@/components/contact/ContactHero'
+import { ContactContent } from '@/components/contact/ContactContent'
+import { CTASection } from '@/components/marketing/CTASection'
+
+export const metadata: Metadata = {
+  title: 'Digitel Contact — Get in touch with our team',
+  description:
+    'Contact Digitel to learn how our platform helps teams automate workflows and improve operational visibility.',
+}
 
 export default function ContactPage() {
   return (
-    <Section>
-      <Container>
-        <h1 className="text-4xl font-bold text-neutral-900">Contact</h1>
-        <p className="mt-4 text-lg text-neutral-600">Get in touch with us.</p>
-      </Container>
-    </Section>
+    <>
+      <ContactHero />
+      <ContactContent />
+      <CTASection />
+    </>
   )
 }
