@@ -10,7 +10,7 @@ export function Hero() {
             Operational clarity, built for growing teams
           </h1>
           <p className="mt-6 text-lg text-neutral-600 sm:text-xl">
-            Digitel gives your team a single platform to automate workflows, track performance, and
+            Digital gives your team a single platform to automate workflows, track performance, and
             make faster decisions — so you can focus on the work that matters.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">

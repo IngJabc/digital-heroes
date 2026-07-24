@@ -24,7 +24,7 @@ export function HowItWorks() {
             id="how-title"
             className="text-3xl font-bold tracking-tight text-neutral-900 sm:text-4xl"
           >
-            How Digitel works
+            How Digital works
           </h2>
         </div>
         <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-3">

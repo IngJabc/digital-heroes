@@ -9,7 +9,7 @@ export function ContactHero() {
             Let&apos;s talk about your operations
           </h1>
           <p className="mt-6 text-lg text-neutral-600 sm:text-xl">
-            Have questions about Digitel? Our team is ready to help you improve workflows and gain
+            Have questions about Digital? Our team is ready to help you improve workflows and gain
             operational clarity.
           </p>
         </div>

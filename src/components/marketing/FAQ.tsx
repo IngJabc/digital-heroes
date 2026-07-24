@@ -3,9 +3,9 @@ import { Container } from '@/components/ui/Container'
 const QUESTIONS = [
   {
     id: 'faq-who',
-    question: 'Who is Digitel for?',
+    question: 'Who is Digital for?',
     answer:
-      'Digitel is built for mid-market and enterprise teams that need operational visibility across departments — from engineering to operations to customer success.',
+      'Digital is built for mid-market and enterprise teams that need operational visibility across departments — from engineering to operations to customer success.',
   },
   {
     id: 'faq-implementation',
@@ -15,9 +15,9 @@ const QUESTIONS = [
   },
   {
     id: 'faq-integrations',
-    question: 'Does Digitel integrate with existing tools?',
+    question: 'Does Digital integrate with existing tools?',
     answer:
-      'Yes. Digitel connects with 50+ platforms including Slack, Jira, Salesforce, HubSpot, and Google Workspace. Custom API integrations are also available on enterprise plans.',
+      'Yes. Digital connects with 50+ platforms including Slack, Jira, Salesforce, HubSpot, and Google Workspace. Custom API integrations are also available on enterprise plans.',
   },
   {
     id: 'faq-trial',
@@ -27,7 +27,7 @@ const QUESTIONS = [
   },
   {
     id: 'faq-support',
-    question: 'What kind of support does Digitel offer?',
+    question: 'What kind of support does Digital offer?',
     answer:
       'All plans include email and chat support. Business and Enterprise plans get priority support with dedicated account managers and SLA-backed response times.',
   },

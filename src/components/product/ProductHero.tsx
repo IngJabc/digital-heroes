@@ -10,7 +10,7 @@ export function ProductHero() {
             A smarter way to manage your operations
           </h1>
           <p className="mt-6 text-lg text-neutral-600 sm:text-xl">
-            Digitel gives teams the tools they need to automate workflows, improve collaboration,
+            Digital gives teams the tools they need to automate workflows, improve collaboration,
             and make better decisions with real-time data.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">

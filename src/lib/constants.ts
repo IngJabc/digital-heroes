@@ -1,4 +1,4 @@
-export const SITE_NAME = 'Digitel'
+export const SITE_NAME = 'Digital'
 
 export const NAV_ITEMS = [
   { label: 'Home', href: '/' },

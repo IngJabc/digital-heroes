@@ -6,9 +6,9 @@ import { UseCases } from '@/components/product/UseCases'
 import { CTASection } from '@/components/marketing/CTASection'
 
 export const metadata: Metadata = {
-  title: 'Digitel Product — Automate workflows and improve operations',
+  title: 'Digital Product — Automate workflows and improve operations',
   description:
-    'Discover how Digitel helps teams automate workflows, collaborate better, and gain operational visibility.',
+    'Discover how Digital helps teams automate workflows, collaborate better, and gain operational visibility.',
 }
 
 export default function ProductPage() {
