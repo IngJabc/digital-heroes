@@ -15,7 +15,7 @@ export function MobileMenu() {
         aria-expanded={isOpen}
         aria-controls="mobile-menu"
         aria-label={isOpen ? 'Close navigation menu' : 'Open navigation menu'}
-        className="relative z-50 inline-flex items-center justify-center rounded-lg p-2 text-neutral-600 transition-colors hover:bg-neutral-100 hover:text-neutral-900 md:hidden"
+        className="relative z-[70] inline-flex items-center justify-center rounded-lg p-2 text-neutral-600 transition-colors hover:bg-neutral-100 hover:text-neutral-900 md:hidden"
       >
         {isOpen ? (
           <svg
@@ -47,20 +47,20 @@ export function MobileMenu() {
           id="mobile-menu"
           role="dialog"
           aria-label="Navigation menu"
-          className="fixed inset-0 z-40 bg-white md:hidden"
+          className="absolute top-full left-0 z-[60] w-full border-t border-neutral-200 bg-white shadow-lg md:hidden"
         >
-          <div className="flex h-full flex-col items-center justify-center gap-6">
+          <nav className="flex flex-col items-center gap-1 px-4 py-6">
             {NAV_ITEMS.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
                 onClick={close}
-                className="text-2xl font-medium text-neutral-700 transition-colors hover:text-neutral-900"
+                className="w-full rounded-lg py-3 text-center text-lg font-medium text-neutral-700 transition-colors hover:bg-neutral-50 hover:text-neutral-900"
               >
                 {item.label}
               </Link>
             ))}
-          </div>
+          </nav>
         </div>
       )}
     </>

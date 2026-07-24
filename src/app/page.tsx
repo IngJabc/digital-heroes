@@ -5,9 +5,9 @@ import { FAQ } from '@/components/marketing/FAQ'
 import { CTASection } from '@/components/marketing/CTASection'
 
 export const metadata: Metadata = {
-  title: 'Digitel — Operational clarity for growing teams',
+  title: 'Digital — Operational clarity for growing teams',
   description:
-    'Digitel helps teams automate workflows, improve collaboration, and gain real-time visibility into operations. Start your free trial today.',
+    'Digital helps teams automate workflows, improve collaboration, and gain real-time visibility into operations. Start your free trial today.',
 }
 
 export default function HomePage() {

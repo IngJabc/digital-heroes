@@ -4,15 +4,15 @@ import { Button } from '@/components/ui/Button'
 const CONTACT_INFO = [
   {
     label: 'Email',
-    email: 'hello@digitel.com',
+    email: 'hello@digital.com',
   },
   {
     label: 'Sales',
-    email: 'sales@digitel.com',
+    email: 'sales@digital.com',
   },
   {
     label: 'Support',
-    email: 'support@digitel.com',
+    email: 'support@digital.com',
   },
 ] as const
 

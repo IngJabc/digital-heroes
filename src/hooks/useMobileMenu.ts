@@ -19,12 +19,5 @@ export function useMobileMenu() {
     return () => document.removeEventListener('keydown', handleKeyDown)
   }, [isOpen, close])
 
-  useEffect(() => {
-    document.body.style.overflow = isOpen ? 'hidden' : ''
-    return () => {
-      document.body.style.overflow = ''
-    }
-  }, [isOpen])
-
   return { isOpen, toggle, close }
 }

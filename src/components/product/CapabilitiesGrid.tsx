@@ -15,7 +15,7 @@ const CAPABILITIES = [
   },
   {
     title: 'Integrations',
-    description: 'Connect Digitel with the platforms your team already uses.',
+    description: 'Connect Digital with the platforms your team already uses.',
   },
   {
     title: 'Security Controls',

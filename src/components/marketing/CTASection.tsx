@@ -10,13 +10,14 @@ export function CTASection() {
             Ready to transform your operations?
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-neutral-300">
-            Join hundreds of teams using Digitel to automate workflows and gain clarity.
+            Join hundreds of teams using Digital to automate workflows and gain clarity.
           </p>
           <div className="mt-8">
             <Button
               href="/contact"
               size="lg"
-              className="bg-white text-neutral-900 hover:bg-neutral-100"
+              variant="secondary"
+              className="border-white bg-white text-neutral-900 hover:bg-neutral-100"
             >
               Start your free trial
             </Button>
